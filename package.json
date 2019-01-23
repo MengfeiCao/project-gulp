@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "ex for gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo hello",
+    "gulp": "./node_modules/.bin/gulp"
+  },
+  "author": "huaizhiY",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-uglify": "^3.0.1",
+    "http-proxy-middleware": "^0.19.1",
+    "proxy": "^0.2.4",
+    "pump": "^3.0.0"
+  }
+}

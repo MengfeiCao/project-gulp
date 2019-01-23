@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>主页</title>
+</head>
+<body>
+    <h1>来啦老妹儿</h1>
+    更新更新，什么情况
+    nice
+     nice
+     gengxin le 
+     再来试试
+     怎么就不行额
+     我怎么这么
+</body>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+<script>
+    // 因为ajax只能请求jsonp的跨域数据，所以此时会出现跨域问题
+    // $.ajax("https://api.douban.com/v2/movie/top250")
+    // .then(function(res){
+    //     console.log(res);
+    // })
+
+
+    // 此时我们就用到代理服务器了
+    // 什么是代理服务器：就是由服务器来请求数据，然后返回到web浏览器端
+    $.ajax("http://localhost:8080/wahaha")
+    .then(function(res){
+        console.log(res);
+    })
+
+</script>
+</html>

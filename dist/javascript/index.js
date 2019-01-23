@@ -1,0 +1,1 @@
+"use strict";$.ajax("http://localhost:8080/proxydouban/movie/top250").then(function(o){console.log(o)});
